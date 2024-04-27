@@ -2,10 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between py-10 px-20 bg-color-text-color">
-      <div className="flex flex-col w-1/3">
-        <img className="w-full" alt="" src="/text-logo-2-1-1@2x.png" />
-        <p className="font-text-body-2">
+    <div className="flex flex-wrap justify-between  pt-5  px-7 bg-color-text-color">
+      <div className="flex flex-col w-72">
+        <a href="/" className="block">
+          <img className="w-full" alt="" src="/text-logo-2-1-1@2x.png" />
+        </a>
+        <p className="font-text-body-2 text-black text-center">
           With a focus on community engagement and innovative tokenomics, Book
           of Apes is more than just a crypto project—it's a movement towards
           decentralized creativity and ownership. Join us in shaping the future
@@ -13,37 +15,39 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex flex-col">
-        <p className=" text-13xl text-color-background-color font-lato">
-          Contact
+        <p className="text-13xl text-color-background-color font-lato ">
+          Join Us
         </p>
         <div className="flex-1 flex flex-col items-start justify-start gap-[6px] text-base text-gray-200 font-text-body-2">
-          <div className=" tracking-[0.01em] whitespace-nowrap z-[2]">
+          <a
+            href="mailto:example@example.com"
+            className="block text-black underline-none"
+          >
             Example@example.com
-          </div>
-          <div className=" tracking-[0.01em] whitespace-nowrap z-[2]">
+          </a>
+          <a
+            href="tel:+123456756778"
+            className="block text-black underline-none"
+          >
             +12-2345 567 78
-          </div>
+          </a>
           <div className="w-[186px] flex flex-row items-start justify-start gap-[12px]">
-            <div className="h-[54px] flex-1 relative rounded-xl bg-color-primary-color-2 z-[2]">
-              <div className="absolute top-[0px] left-[0px] rounded-xl bg-color-primary-color-2 w-full h-full hidden" />
+            <a href="#" className="block">
               <img
-                className="absolute h-[63.33%] w-[67.78%] top-[18.89%] right-[16.67%] bottom-[17.78%] left-[15.56%] max-w-full overflow-hidden max-h-full z-[1]"
+                className="h-[54px] flex-1 relative rounded-xl bg-color-primary-color-2 z-[2]"
+                loading="lazy"
                 alt=""
                 src="/group-11.svg"
               />
-            </div>
-            <img
-              className="h-[54px] w-[54px] relative min-h-[54px] z-[2]"
-              loading="lazy"
-              alt=""
-              src="/group-24.svg"
-            />
-            <img
-              className="h-[54px] w-[54px] relative min-h-[54px] z-[2]"
-              loading="lazy"
-              alt=""
-              src="/group-23.svg"
-            />
+            </a>
+            <a href="#" className="block">
+              <img
+                className="h-[54px] w-[54px] relative min-h-[54px] z-[2]"
+                loading="lazy"
+                alt=""
+                src="/group-24.svg"
+              />
+            </a>
           </div>
         </div>
       </div>

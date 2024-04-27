@@ -2,7 +2,7 @@ import React from "react";
 
 const Partners = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-8 pl-5 box-border gap-[40px] max-w-full text-center text-61xl text-color-primary-color-2 font-text-heading mq925:gap-[20px] overflow-hidden">
+    <section className="flex flex-col items-center justify-center p-3   box-border gap-[40px] max-w-full text-center text-61xl text-color-primary-color-2 font-text-heading mq925:gap-[20px] overflow-hidden">
       <div className="flex flex-row items-center justify-center py-0 px-5 box-border max-w-full">
         <h1 className="m-0 h-20 w-[688px]  text-inherit font-bold font-inherit inline-block shrink-0 max-w-full z-[1] mq450:text-5xl mq925:text-21xl">
           <span>{`Our `}</span>
@@ -23,7 +23,7 @@ const Partners = () => {
             src="/group-204.svg"
           />
         </div>
-        <div className="bg-image-container-partners"></div>
+        <div className="bg-image-container-partners  mq925:hidden mq450:hidden"></div>
       </div>
     </section>
   );
