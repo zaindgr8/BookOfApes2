@@ -16,9 +16,7 @@ const FrameComponent2 = () => {
         </h1>
       </div>
       <FrameComponent4 bookOfApes="Book Of Apes" name1="Name" />
-      <FrameComponent4 bookOfApes="BSC" name1="Network" propLeft="617px" />
-      <FrameComponent3 prop="18" decimal="Decimal" />
-      <FrameComponent3 prop="100M" decimal="Total Supply" propLeft="1351px" />
+      <FrameComponent4 bookOfApes="BSC" name1="Network" />
     </div>
   );
 };

@@ -1,4 +1,6 @@
-const FrameComponent1 = () => {
+import React from "react";
+
+const RoadMap = () => {
   return (
     <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[137.1px] box-border max-w-full text-center text-61xl text-color-primary-color-2 font-text-heading mq450:pb-[58px] mq450:box-border mq925:pb-[89px] mq925:box-border">
       <div className="w-[1588px] flex flex-col items-start justify-start max-w-full">
@@ -78,4 +80,4 @@ const FrameComponent1 = () => {
   );
 };
 
-export default FrameComponent1;
+export default RoadMap;

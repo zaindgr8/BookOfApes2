@@ -1,6 +1,6 @@
 const FrameComponent6 = () => {
   return (
-    <header className=" w-full h-full flex flex-row items-start justify-between pt-4  max-w-full">
+    <header className=" w-full h-full flex flex-row items-start justify-evenly pt-4  max-w-full">
       <div className="flex gap-x-5">
         <img
           className="h-[100px] w-[100px] relative object-contain shrink-0 z-[2]"
@@ -17,21 +17,11 @@ const FrameComponent6 = () => {
       </div>
       <nav className="flex items-center justify-center ">
         <nav className=" flex justify-start mt-8  gap-x-4 max-w-full text-left text-xl text-white font-text-body-2">
-          <div className="">
-            Home
-          </div>
-          <div className="">
-            About
-          </div>
-          <div className="">
-            Why Us
-          </div>
-          <div className="">
-            Tokenomics
-          </div>
-          <div className="">
-            Roadmap
-          </div>
+          <div className="">Home</div>
+          <div className="">About</div>
+          <div className="">Why Us</div>
+          <div className="">Tokenomics</div>
+          <div className="">Roadmap</div>
         </nav>
       </nav>
       <div className=" flex flex-col items-start justify-start pt-[19px]  box-border shrink-0">
