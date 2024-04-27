@@ -14,25 +14,14 @@ const Footer = () => {
           of digital art and collectibles!
         </p>
       </div>
-      <div className="flex flex-col">
-        <p className="text-13xl text-color-background-color font-lato ">
-          Join Us
-        </p>
+      <div className="flex flex-col mb-5">
+        <h1 className="">
+          <span className="">Join</span>
+          <span className="text-gradient">Us</span>
+        </h1>
         <div className="flex-1 flex flex-col items-start justify-start gap-[6px] text-base text-gray-200 font-text-body-2">
-          <a
-            href="mailto:example@example.com"
-            className="block text-black underline-none"
-          >
-            Example@example.com
-          </a>
-          <a
-            href="tel:+123456756778"
-            className="block text-black underline-none"
-          >
-            +12-2345 567 78
-          </a>
           <div className="w-[186px] flex flex-row items-start justify-start gap-[12px]">
-            <a href="#" className="block">
+            <a href="https://twitter.com/bape_memecoin" target="_blank" className="block">
               <img
                 className="h-[54px] flex-1 relative rounded-xl bg-color-primary-color-2 z-[2]"
                 loading="lazy"
@@ -40,7 +29,7 @@ const Footer = () => {
                 src="/group-11.svg"
               />
             </a>
-            <a href="#" className="block">
+            <a href="https://t.me/bookofapes" target="_blank" className="block">
               <img
                 className="h-[54px] w-[54px] relative min-h-[54px] z-[2]"
                 loading="lazy"

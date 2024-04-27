@@ -32,7 +32,7 @@ const Tokenomics = () => {
         </div>
         <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient flex justify-center flex-col items-center">
           <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
-            BSC
+            SOLANA
           </h2>
           <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
             Network
@@ -40,7 +40,7 @@ const Tokenomics = () => {
         </div>
         <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient flex justify-center flex-col items-center">
           <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
-            18
+            9
           </h2>
           <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
             Decimal
@@ -48,7 +48,7 @@ const Tokenomics = () => {
         </div>
         <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient flex justify-center flex-col items-center">
           <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
-            100M
+            420000000000
           </h2>
           <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
             Total Supply

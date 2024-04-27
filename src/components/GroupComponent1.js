@@ -9,7 +9,7 @@ const GroupComponent1 = () => {
         Contract Address:
       </b>
       <div className="relative leading-[150%] inline-block max-w-full z-[2] mq450:text-lgi mq450:leading-[29px]">
-        0xeebCAE2F8aBFEA67f42E7b2B18b8B7b56628EB21
+        9wLDRqod5iLforGmu693nFiQe357tjQ7TmfhPQsHuD3p
       </div>
       <div className="flex flex-col items-start justify-start pt-1.5 px-0 pb-0">
         <img

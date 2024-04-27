@@ -10,7 +10,7 @@ const Partners = () => {
         </h1>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start gap-[188px] max-w-full mq450:gap-[23px] mq925:gap-[47px] mq1350:gap-[94px] mq1825:flex-wrap mq1825:justify-center py-16 ">
-        <div className=" flex flex-row items-start justify-start relative max-w-full shrink-0">
+        <div className="cursor-pointer flex flex-row items-start justify-start relative max-w-full shrink-0">
           <img
             className="h-[1754px] w-[1916px] absolute !m-[0] top-[-1171px] left-[calc(50%_-_958px)] object-cover mix-blend-exclusion"
             alt=""
