@@ -10,9 +10,9 @@ const AboutUs = () => {
           src="/group-189@2x.png"
         />
       </div>
-      <div className="flex-1 flex flex-col justify-center items-start ">
-        <h1 className="gap-x-3">
-          <span className="text-white" >About</span>
+      <div className="flex-1 flex flex-col justify-center mq450:items-center items-center">
+        <h1 className="gap-x-3 font-text-heading">
+          <span className="text-white">About</span>
           <span className="text-gradient ml-2">Us</span>
         </h1>
         <div className="self-stretch relative text-5xl text-center font-text-body-2 text-color-text-color z-[1] ">
@@ -23,7 +23,7 @@ const AboutUs = () => {
           to innovation and inclusivity, we strive to revolutionize the way
           digital art and collectibles are created, shared, and valued.
         </div>
-        <button className="cursor-pointer [border:none]  p-4  mx-4 bg-color-primary-color-2 rounded-xl flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full hover:bg-deepskyblue-100 mq450:pl-5 mq450:pr-5 mq450:box-border text-13xl leading-[150%]  font-text-body-2 text-color-background-color text-center font-medium ">
+        <button className="cursor-pointer [border:none]  p-4  mx-4 bg-color-primary-color-2 rounded-xl flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full hover:bg-deepskyblue-100 mq450:pl-5 mq450:pr-5 mq450:box-border text-13xl leading-[150%]  font-text-body-2 text-color-background-color text-center font-medium mt-16">
           Buy On Pinksale
         </button>
       </div>

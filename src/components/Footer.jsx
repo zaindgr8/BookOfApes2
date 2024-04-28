@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-wrap justify-between  pt-5  px-12 bg-color-text-color">
+    <div className="flex flex-wrap mq450:justify-center justify-between  pt-5  px-12 bg-color-text-color">
       <div className="flex flex-col w-72">
         <a href="/" className="block">
           <img className="w-full" alt="" src="/text-logo-2-1-1@2x.png" />
@@ -14,14 +14,18 @@ const Footer = () => {
           of digital art and collectibles!
         </p>
       </div>
-      <div className="flex flex-col mb-5">
+      <div className="flex flex-col mb-5 mq450:items-center items-start">
         <h1 className="">
-          <span className="">Join</span>
+          <span className=" font-text-body-2">Join</span>
           <span className="text-gradient">Us</span>
         </h1>
-        <div className="flex-1 flex flex-col items-start justify-start gap-[6px] text-base text-gray-200 font-text-body-2">
-          <div className="w-[186px] flex flex-row items-start justify-start gap-[12px]">
-            <a href="https://twitter.com/bape_memecoin" target="_blank" className="block">
+        <div className="flex-1 flex flex-col mq450:items-center mq450:justify-center items-start justify-start gap-[6px] text-base text-gray-200 font-text-body-2">
+          <div className="mq450:w-full w-[186px] flex flex-row items-start justify-start gap-[12px]">
+            <a
+              href="https://twitter.com/bape_memecoin"
+              target="_blank"
+              className="block"
+            >
               <img
                 className="h-[54px] flex-1 relative rounded-xl bg-color-primary-color-2 z-[2]"
                 loading="lazy"
