@@ -72,7 +72,7 @@ const MobileHeader = () => {
       <header className=" flex flex-row items-center justify-between  p-2 ">
         <div className="flex items-center">
           <img
-            className="w-[100px] object-contain"
+            className="lg:w-[100px] w-[60px] mr-3 object-contain"
             loading="lazy"
             alt=""
             src="/group-1@2x.png"

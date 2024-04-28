@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-wrap justify-between  pt-5  px-7 bg-color-text-color">
+    <div className="flex flex-wrap justify-between  pt-5  px-12 bg-color-text-color">
       <div className="flex flex-col w-72">
         <a href="/" className="block">
           <img className="w-full" alt="" src="/text-logo-2-1-1@2x.png" />

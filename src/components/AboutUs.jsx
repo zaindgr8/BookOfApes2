@@ -10,9 +10,10 @@ const AboutUs = () => {
           src="/group-189@2x.png"
         />
       </div>
-      <div className="flex-1 flex flex-col justify-center items-start gap-6">
-        <h1 className=" text-inherit font-bold  px-24  flex  mq450:text-5xl text-[6rem] text-white font-text-heading">
-          About Us
+      <div className="flex-1 flex flex-col justify-center items-start ">
+        <h1 className="gap-x-3">
+          <span className="text-white" >About</span>
+          <span className="text-gradient ml-2">Us</span>
         </h1>
         <div className="self-stretch relative text-5xl text-center font-text-body-2 text-color-text-color z-[1] ">
           Book of Apes is a dynamic crypto project that merges the worlds of
