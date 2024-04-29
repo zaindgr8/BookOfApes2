@@ -1,6 +1,15 @@
 import React from "react";
 import chart from "../assets/Tokenomic_chart.png";
+import toast, { Toaster } from "react-hot-toast";
 const Tokenomics = () => {
+  const handleClick = async (textToCopy) => {
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+      toast.success("Copied to clipboard");
+    } catch (err) {
+      console.error("Failed to copy text:", err);
+    }
+  };
   return (
     <div
       id="Tokenomics"
@@ -21,7 +30,9 @@ const Tokenomics = () => {
             </p>
             <button
               className=" bg-transparent"
-              onClick={() => console.log("first")}
+              onClick={() =>
+                handleClick("3hyNSp4E9vweJekoHwB5RKCsW9PfqYPbfr9WR8ri9JfF")
+              }
             >
               <img
                 className="cursor-pointer"
@@ -73,6 +84,7 @@ const Tokenomics = () => {
           <img src={chart} className="w-full mq450:h-full" alt="" />
         </div>
       </div>
+      <Toaster />
     </div>
   );
 };
