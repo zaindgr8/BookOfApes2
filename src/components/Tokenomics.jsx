@@ -1,5 +1,5 @@
 import React from "react";
-
+import chart from "../assets/Tokenomic_chart.png";
 const Tokenomics = () => {
   return (
     <div
@@ -17,7 +17,7 @@ const Tokenomics = () => {
           <div className="flex justify-center text-center mq450:p-2 p-8 flex-wrap gap-3 text-white font-inherit">
             <p className="font-text-heading">Contract Address:</p>
             <p className="font-sans">
-              9wLDRqod5iLforGmu693nFiQe357tjQ7TmfhPQsHuD3p
+              3hyNSp4E9vweJekoHwB5RKCsW9PfqYPbfr9WR8ri9JfF
             </p>
             <button
               className=" bg-transparent"
@@ -33,39 +33,44 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
-      <div className=" flex pt-16 gap-16 mq450:flex-col mq925:flex-col   pb-5 ">
-        <div className="grid   px-10 mq450:grid-cols-1 m-2 mq925:grid-cols-2 mq1350:grid-cols-2 mq1825:grid-cols-2 gap-10 ">
-          <div className="w-[250px] h-[157px] text-center text-10xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient flex justify-center flex-col items-center font-text-body-2">
-            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px] ">
+
+      <div className="grid mq450:grid-cols-1 m-2 mq925:grid-cols-2 mq1350:grid-cols-2 mq1825:grid-cols-2 gap-8 pt-16 px-8 ">
+        <div className="flex gap-6 flex-wrap mq925:order-1 mq450:order-2">
+          <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient flex justify-center flex-col items-center font-text-body-2">
+            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px] ">
               Book Of Apes
             </h2>
-            <b className="text-3xl inline-block w-[304px] ">Name</b>
+            <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
+              Name
+            </b>
           </div>
-          <div className="w-[250px] h-[157px] text-center text-10xl text-color-text-color rounded-xl bg-mediumvioletred-200 font-text-body-2 border-solid border-gradient flex justify-center flex-col items-center">
-            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
+          <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 font-text-body-2 border-solid border-gradient flex justify-center flex-col items-center">
+            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
               SOLANA
             </h2>
-            <b className="text-3xl inline-block w-[304px] ">Network</b>
+            <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
+              Network
+            </b>
           </div>
-          <div className="w-[250px] h-[157px] text-center text-10xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid font-text-body-2 border-gradient flex justify-center flex-col items-center">
-            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
-              9
+          <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid font-text-body-2 border-gradient flex justify-center flex-col items-center">
+            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
+              6
             </h2>
-            <b className="text-3xl inline-block w-[304px] ">Decimal</b>
+            <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
+              Decimal
+            </b>
           </div>
-          <div className="w-[250px] h-[157px] text-center text-10xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient font-text-body-2 flex justify-center flex-col items-center">
-            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
+          <div className="w-[320px] h-[207px] text-center text-21xl text-color-text-color rounded-xl bg-mediumvioletred-200 border-solid border-gradient font-text-body-2 flex justify-center flex-col items-center">
+            <h2 className="m-0 text-inherit leading-[150%] font-bold font-inherit inline-block w-[304px] z-[4] mq450:text-5xl mq450:leading-[36px] mq925:text-13xl mq925:leading-[48px]">
               420000000000
             </h2>
-            <b className="text-3xl inline-block w-[304px] ">Total Supply</b>
+            <b className="text-5xl inline-block w-[304px] z-[4] mq450:text-lgi">
+              Total Supply
+            </b>
           </div>
         </div>
-        <div className=" mq450:px-12 mq925:px-12  ">
-          <img
-            className="w-[80%] mq450:w-[100%] mq925:w-[100%] mq1825:pt-8 mq1350:pt-8 h-auto object-contain"
-            alt=""
-            src="/Pie Chart.png"
-          />
+        <div className="flex mq925:order-2 mq450:order-1">
+          <img src={chart} className="w-full mq450:h-full" alt="" />
         </div>
       </div>
     </div>
